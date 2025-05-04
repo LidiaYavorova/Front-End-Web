@@ -1,0 +1,56 @@
+
+body{
+    box-sizing: border-box;
+}
+
+section{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:1rem;
+    padding:2rem;
+
+}
+
+.details-country{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+img{
+    height:60px;
+    border-radius: 1rem;
+}
+
+#country-label{
+    font-weight: bold;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th{
+    width:50%;
+    text-align: left;
+    padding:1rem;
+}
+
+tr{
+    border-bottom: 1px solid #ddd;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+#heart-icon{
+    height:2rem;
+}

@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;   
+    display:flex;
+}
+section{
+    margin-top:5rem;
+    width:50%;
+    padding:3rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label,button{
+    padding: 1rem;
+    border: 1px solid #D3D3D3;
+    border-radius: 0.5rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+label:hover{
+    background-color: whitesmoke;
+}
+
+button{
+    width:100%;
+    margin-top:0.5em;
+    background-color:lightgray;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+#img-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height:75%;
+}
